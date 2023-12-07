@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: char;
+}
+
+@font-face {
+    font-family: 'char';
+    src: url('Magnolia Script.otf');
+}
+
+.msg{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)  translateY(-50%);
+}
+
+h1, h2{
+    background: linear-gradient(45deg, rgb(68,0,111),rgb(116, 29, 170),rgb(162, 17, 252),rgb(214,0,66),rgb(235,71,47),rgb(247,206,28));
+    -webkit-background-clip: text;
+        color: transparent;
+}
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
